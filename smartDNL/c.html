@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>ნაწილები</title>
+    <style>
+        figure {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            
+        }
+
+        img {
+            width: 700px;
+            height: 500px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        figcaption {
+            flex-grow: 1;
+            text-align: center;
+            max-width: 500px; /* İstediğiniz genişliği buradan ayarlayabilirsiniz */
+            margin: 0 auto; /* Açıklamayı ortalamak için */
+            text-align: justify;
+            text-justify: inter-word;
+            border: 2px double #000; 
+            padding: 10px; 
+            
+        }
+
+
+        h2 {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+            background-color: #ffd700; /* Arka plan rengi */
+            color: #000; /* Metin rengi */
+        }
+    </style>
+</head>
+<body>
+
+<figure>
+    <img src="resim6.jpg" alt="Resim 1">
+    <div>
+        <h2>მოწყობილობის მუშაობის პრინციპი
+        </h2>
+        <figcaption>მოცემული მოწყობილობისათვის საჭირო იქნება სერვერი, რისი მეშვეობითაც მომხმარებელი ნებისმიერი ადგილიდან დაუკავშირდება მოწყობილობას სერვერის გავლით და ექნება საშულება გააკონტროლს თავისი მოწყობილობა ან გადახედოს მის მიერ მოწოდებულ ინფომრაციას, ამისათვის კი მოწყობილობა ან თუნდაც რამოდენიმე მოწყობილობა wifi-ს გავლით დაუკავშირდება გლობალურ ქსელს შემდეგ უკვე სერვერს, რომელსაც მიაწოდებს ინფორმაციას, მომხმარებელი კი აპლიკაციისა და გლობალური ქსელის დახმარებით დაუკავშირდება სერერს. როგორც მოწყობილობიდან სერვერამდე, ასევე აპლიკაციიდან სერვერამდე დამაკავშირებელი გზებისათვის გამოვიყენებთ MQTT პროტოკოლს, რაც არის მონაცემთა მიმოცვლისათვის განკუთვნილი პროტოკოლი ioT მოწყობილობებისათვის, შესაბამისად აღნიშნული პროტოკოლით საშუალება გვექნება ინფორმაცია მარტივად მივიღოთ თუ გავაგზავნოთ და ასევე მოწყობილობა ინტეგრირებად იქნება სხვა ჭვიანი სახლის სისტმებთან.</figcaption>
+    </div>
+</figure>
+
+
+
+</body>
+</html>
